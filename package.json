@@ -1,9 +1,24 @@
 {
-    "scripts": {
-        "dev": "netlify-lambda serve resources/api",
-        "build": "netlify-lambda build resources/api"
-    },
-    "devDependencies": {
-        "netlify-lambda": "^2.0.16"
-    }
+  "name": "music-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify-lambda serve resources/api",
+    "build": "netlify-lambda build resources/api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihpolyphe/music-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ihpolyphe/music-generator/issues"
+  },
+  "homepage": "https://github.com/ihpolyphe/music-generator#readme",
+  "dependencies": {
+    "netlify-lambda": "^2.0.16"
+  }
 }
