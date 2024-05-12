@@ -1,16 +1,6 @@
 {
-  "dependencies": {
-    "netlify-lambda": "^2.0.16"
-  },
-  "scripts": {
+    "scripts": {
     "dev": "netlify-lambda serve resources/api",
     "build": "netlify-lambda build resources/api"
-  },
-  "name": "music-generator",
-  "version": "1.0.0",
-  "description": "Netlifyでホスティング",
-  "main": "main.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
