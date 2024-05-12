@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "netlify-lambda serve resources/api",
-    "build": "yarn netlify-lambda build resources/api"
+    "dev": "NODE_OPTIONS='--openssl-legacy-provider' netlify-lambda serve resources/api",
+    "build": "NODE_OPTIONS='--openssl-legacy-provider' yarn netlify-lambda build resources/api"
   },
   "repository": {
     "type": "git",
