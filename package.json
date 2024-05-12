@@ -1,6 +1,9 @@
 {
     "scripts": {
-    "dev": "netlify-lambda serve resources/api",
-    "build": "netlify-lambda build resources/api"
-  }
+        "dev": "netlify-lambda serve resources/api",
+        "build": "netlify-lambda build resources/api"
+    },
+    "devDependencies": {
+        "netlify-lambda": "^2.0.16"
+    }
 }
