@@ -5,5 +5,8 @@
   "scripts": {
     "dev": "netlify-lambda serve ./api",
     "build": "netlify-lambda build ./api"
+  },
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.3.10"
   }
 }
