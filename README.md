@@ -22,11 +22,14 @@ https://app.netlify.com/sites/music-generator-by-musica/logs/functions
 https://music-generator-by-musica.netlify.app/.netlify/functions/index
 
 
-###　トラブルシューティング
+### トラブルシューティング
 nodejsのバージョンは20だとローカルの確認エラー、16にダウングレードしてok
+
 https://qiita.com/n4a/items/bf79d2ef6371f9d61c7b
 https://qiita.com/s_secual/items/0539f03bc21059bc9d0a
 
 Netlifyのデプロイに失敗する。
+
 →netlifyのnodejsも20で行ける。ビルドコマンドにレガシーSSLで実行するオプションを付与した。
+
 https://qiita.com/akitkat/items/f455bbc088a408cbc3a5
