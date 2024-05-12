@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "netlify-lambda serve resources/api"
+    "dev": "netlify-lambda serve resources/api",
+    "build": "yarn netlify-lambda build resources/api"
   },
   "repository": {
     "type": "git",
