@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/ihpolyphe/music-generator#readme",
   "dependencies": {
-    "netlify-lambda": "^2.0.16",
+    "netlify-lambda": "^2.0.16"
+  },
+  "devDependencies": {
     "terser-webpack-plugin": "^5.3.10"
   }
 }
