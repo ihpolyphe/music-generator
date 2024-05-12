@@ -20,5 +20,8 @@
   "homepage": "https://github.com/ihpolyphe/music-generator#readme",
   "dependencies": {
     "netlify-lambda": "^2.0.16"
+  },
+  "devDependencies": {
+    "terser": "^5.31.0"
   }
 }
