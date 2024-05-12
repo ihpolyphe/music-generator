@@ -3,10 +3,14 @@
     "netlify-lambda": "^2.0.16"
   },
   "scripts": {
-    "dev": "netlify-lambda serve ./api",
-    "build": "netlify-lambda build ./api"
+    "dev": "netlify-lambda serve resources/api",
+    "build": "netlify-lambda build resources/api"
   },
-  "devDependencies": {
-    "terser-webpack-plugin": "^5.3.10"
-  }
+  "name": "music-generator",
+  "version": "1.0.0",
+  "description": "Netlifyでホスティング",
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
